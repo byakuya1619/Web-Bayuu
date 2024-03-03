@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebBayU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="hacker.png" class="logo-img">
+            <h1 class="logo-title">BAYY</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="mailto:bayujunieal@gmail.com">CONTACT ME</a></li>
+            </ul>
+        </nav>
+        <button class="btn-cta" onclick="redirInstagram()">Follow Me</button>
+    </header>
+    <div class="container">
+        <div class="intro">
+            <p class="title">Hello, Bayuu Here!</p>
+            <P class="description">Cyber Security From ITB PalComTech</P>
+            <img src="foto1.jpg" class="img-foto">
+        </div>
+        <div class="paralax">
+            <div class="HOME">
+                <p class="title">Saya adalah Programmer</p>
+                <p class="description">Ngoding dulu Jago Nanti</p>
+                <div class="mt-10">
+                    <button class="btn-cta" onclick="redirWhatsapp()">Mari Ngoding Bareng</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="cards" id="ABOUT">
+                    <div class="cards-items">
+                        <img src="videogame.png" class="icon">
+                        <p class="card-title">Saya Suka Game</p>
+                        <p class="card-description">Bermain Game merupakan hobi saya saat waktu luang</p>
+                    </div>
+                    <div class="cards-items">
+                        <img src="coding.png" class="icon">
+                        <p class="card-title">Saya Suka Coding</p>
+                        <p class="card-description">Belajar Coding merupakan hobi baru saya setelah kuliah</p>
+                    </div>
+                    <div class="cards-items">
+                        <img src="error.png" class="icon">
+                        <p class="card-title">Error Adalah Teman Saya</p>
+                        <p class="card-description">Jika Ada Error saya pusing,Jika Error Ketemu saya lanjut coding
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer >
+            <p class="title">&copy; Bayu Junieal Irawan Website 2024</p>
+        </footer>
+    </div>
+    <script>
+        function redirInstagram() {
+            window.location.href = "https://www.instagram.com/bayuu.irawann_"
+        }
+
+        function redirWhatsapp() {
+            window.location.href = "https://wa.me/+6289522636585"
+        }
+    </script>
+</body>
+
+</html>
